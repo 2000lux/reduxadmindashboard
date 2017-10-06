@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "files.exclude": {
+        "**/*.map.js": true
+      },
+      // This must be specified if "paths" is set
+      "baseUrl": "./src",
+      // Relative to "baseUrl"
+      "paths": {
+        "*": [
+          "*"
+        ]
+      }
+    }
+  }

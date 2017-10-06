@@ -1,0 +1,351 @@
+/* here you can put your own css to customize and override the theme */
+
+/* UNIVERSAL*/
+.hidden {
+	visibility: hidden;
+}
+
+.swal2-icon {
+	border-radius: 50% !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.narrow-title {
+  margin: 10px 0;
+}
+
+/* LOGIN */
+.login .content .form-title {
+    margin-bottom: 65px;
+}
+
+.login .rememberme {
+	position: relative;
+}
+
+.icon-logout::before {
+	content: "" !important;
+}
+
+/* TOP MENU BAR*/
+.page-header.navbar .page-logo .logo-default {
+	width: 163px;
+	height: 40px;
+	margin: 6px 0 0;
+}
+
+.top-menu .nav {
+	width: 100%;
+	display:block !important;
+}
+
+.top-menu .nav > li {
+	float: right !important;
+}
+
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle {
+    padding: 13px 6px 13px 8px;
+}
+
+.top-menu .dropdown.page-quick-sidebar-toggle {
+	width: 50px !important;
+}
+
+.top-menu .dropdown.page-quick-sidebar-toggle a {
+	padding-top: 16px !important;
+}
+
+.dropdown-notification > .dropdown-menu {
+  max-width: 400px !important;
+  width: 400px !important;
+}
+
+.dropdown-notification > .dropdown-menu i {
+  margin-right: 5px !important;
+}
+
+.dropdown-notification li.notification ul
+{
+  list-style-type: none;
+  padding: 0;
+}
+
+.dropdown-notification li.notification ul > li
+{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.dropdown-notification li.notification > a
+{
+  padding: 16px 5px 18px 15px !important;
+}
+
+.dropdown-notification li.notification li.label-icon
+{
+
+}
+
+.dropdown-notification .details
+{
+  width: 260px !important;
+  padding: 0 5px;
+}
+
+.dropdown-notification .timelapse
+{
+  width: 80px;
+  max-width: 80px !important;
+  background: transparent !important;
+  font-size: 11px;
+  font-weight: 400;
+  opacity: .7;
+  text-align: right;
+  padding: 1px 5px;
+}
+
+.dropdown-notification .viewed
+{
+  width: 10px !important;
+}
+
+.dropdown-notification .action-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50% !important;
+  vertical-align: middle;
+}
+
+
+/* PAGE */
+.page-container {
+	clear: both;
+}
+
+/* TABLES */
+.bootstrap-table .fixed-table-body {
+	overflow: visible;
+}
+
+.red-row {
+	background-color: #ed6b75 !important;
+	color: white !important;
+}
+
+.table-hover > tbody > tr:hover > td.red-row {
+	background-color: #ed6b75 !important;
+	color: white !important;
+}
+
+.date-small .DayPickerInput input {
+	width: 130px !important;
+}
+
+.date-small label {
+	width: 60px;
+}
+
+.secondary-table-header {
+  background: #edebea;
+}
+
+.secondary-table-body {
+  background: #f5f4f3;
+}
+
+/* SIDEBAR */
+.page-sidebar-wrapper .page-sidebar-menu .sidebar-toggler-wrapper {
+    margin-bottom: 15px;
+}
+
+/* FORMS */
+form .full-width {
+	width: 100%;
+}
+
+form .margin-bottom{
+	margin-bottom: 10px;
+}
+
+.form-control.quill {
+	height: auto;
+	padding: 0;
+	border: 0;
+	min-height: 100px;
+}
+
+.ql-container.ql-snow {
+	min-height: 100px;
+}
+
+.ql-container {
+    font-size: 14px !important
+}
+
+.Select-menu-outer {
+	z-index: 1000 !important;
+}
+
+.DayPickerInput-OverlayWrapper {
+	z-index: 1000 !important;
+}
+
+.DayPickerInput input {
+    -webkit-appearance: none;
+    padding: .5rem 1rem;
+    border: 1px solid #DCE0E0;
+    color: #565A5C;
+    font-size: 16px;
+    font-family: Montserrat, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    text-align: center;
+    font-weight: 300;
+}
+
+.DayPicker-Day, .DayPicker-WeekNumber {
+    padding: 9px 10px !important;
+}
+
+.form-actions.fixed {
+    position: fixed;
+    bottom: 0;
+    background: #364150 !important;
+    width: 100%;
+    display: block;
+    margin-left: -60px;
+    padding-left: 60px !important;
+    border: 0;
+    z-index: 9;
+}
+
+.form .with-padding {
+  padding: 0px 15px;
+}
+
+.has-error {
+  .ql-toolbar.ql-snow{
+    border-bottom-color: red;
+  }
+  .Select-control, .ql-container.ql-snow {
+    border-color: red;
+  }
+}
+
+.panel-uploader{
+  .btn-circle {
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    background: transparent;
+    overflow: visible;
+    i {
+      font-size: 23px;
+      color: #333;
+    }
+  }
+  .body-content {
+    overflow: hidden;
+  }
+}
+
+.quotation-group-product-form {
+  .btn-save-product {
+    margin: 0 5px;
+  }
+}
+
+/**
+* Animate.css
+*/
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes flipInX {
+  from {
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    transform: perspective(400px);
+  }
+}
+
+.flipInX {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  animation-name: flipInX;
+}
+
+/**
+* Interactions 
+*/
+.interactions-page {
+
+  h3 {
+    margin: 5px 0px;
+  }
+
+  .interactionList-buttons .btn {
+    margin-right: 5px;
+  }
+
+  .interation-box .portlet {
+    border: 1px solid #FAFAFA;
+    
+    .portlet-title {
+      margin-bottom: 0;
+    }
+
+    .portlet-body {
+      background: #eef1f5;
+      padding: 10px 15px;
+    }
+  }
+
+  .caption-helper-date {
+    margin-left: 5px !important;
+  }
+
+  .pagination {
+      .itemDisabled,
+      li:first-child,
+      li:last-child {
+          display: none !important;
+      }
+  }
+}
+
+/**
+Modals
+*/
+.quotation-models-modal {
+  .list-group-item {
+    padding: 3px 15px !important;
+    span {
+      display: inline-block;
+      padding: 8px 0px;
+    }
+  }
+}

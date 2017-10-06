@@ -1,0 +1,1 @@
+<?php require public_path() . '/index.html'; // include react index
